@@ -1,0 +1,1147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.meny{
+    display: none;
+}
+#logodiv{
+	width: 100%;
+	height: 150px;
+	background-image: url("photos/logo div.png");
+	border-bottom: 3px solid transparent;
+	border-image: linear-gradient(to right,#d4d43e 25%, #bec6db 60%);
+	border-image-slice: 1;	
+}
+.logoslika{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 8px;
+}
+.logoslika:hover {
+   transform: scale(1.03);
+    transition: linear 1.2s;
+}
+.logoslika:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+.lasss{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 5px;
+}
+.fitnessstudiotxt{
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 100px;
+}
+.instagram{
+	position: absolute;
+	background-color: #d4d43e;
+	border-radius: 70px;
+	margin-left: 1100px;
+	margin-top: 40px;
+}
+.instagram:hover {
+   transform: scale(1.15);
+    transition: linear 1.2s;
+}
+
+.instagram:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+.youtube{
+	position: absolute;
+	background-color: #d4d43e;
+	border-radius: 70px;
+	margin-left: 1200px;
+	margin-top: 40px;
+}
+.youtube:hover {
+   transform: scale(1.15);
+    transition: linear 1.2s;
+}
+
+.youtube:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+.logo{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: -3px;
+}
+/* ***************************************************************************************** */
+#section1{
+	width: 100%;
+	height: 350px;
+	background-image: url("photos/pozadina1.jpg");
+	background-size: cover;
+	border-bottom: 3px solid transparent;
+	border-image: linear-gradient(to right,#d4d43e 25%, #494545 60%);
+	border-image-slice: 1;	
+}
+ul {
+	z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("photos/logo div.png");
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   	cursor: pointer;
+   	font-family: 'Trebuchet MS';
+   	font-weight: bold;
+   	font-size: 22px;
+}
+
+li a:hover {
+   transform: scale(1.12);
+    transition: linear 1.2s;
+}
+
+li a:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+
+/* ***************************************************************************************** */
+
+#section2{
+	width: 100%;
+	height: 800px;
+	background-image: url("photos/pozadina.jpg");
+	background-size: cover;
+		border-bottom: 3px solid transparent;
+	border-image: linear-gradient(to right,#d4d43e 25%, #bec6db 60%);
+	border-image-slice: 1;	
+
+}
+.gallery{	
+position: absolute;
+margin-left: 60px;
+	
+}
+.gallery img{
+		width: 230px;
+		padding: 5px;
+		filter: grayscale(40%);
+		transition: 1s;
+		border-radius: 10px;
+}
+.gallery img:hover{
+		filter: grayscale(0);
+		transform: scale(1.1);
+}
+.pic1{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 45px;
+}
+.pic2{
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 45px;
+}
+.pic3{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 415px;
+}
+.pic4{
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 220px;
+}
+.pic5{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 45px;
+}
+.pic6{
+	position: absolute;
+	margin-left: 750px;
+	margin-top: 595px;
+}
+.pic7{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 595px;
+}
+.pic8{
+	position: absolute;
+	margin-left: 750px;
+	margin-top: 415px;
+}
+.pic9{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 220px;
+}
+.pic10{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 45px;
+}
+.pic15{
+	position: absolute;
+	margin-left: 750px;
+	margin-top: 45px;
+}
+.pic12{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 220px;
+}
+.pic13{
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 595px;
+}
+.pic14{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 595px;
+}
+.pic11{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 595px;
+}
+.pic16{
+	visibility: hidden;
+}
+.pic17{
+	visibility: hidden;
+}
+
+/* ***************************************************************************************** */
+#section5{/*sekcija video*/
+	width: 100%;
+	height: 1000px;
+	background-image: url("photos/pozadina.jpg");
+	background-size: cover;
+	border-bottom: 3px solid transparent;
+	border-image: linear-gradient(to right,#d4d43e 25%, #bec6db 60%);
+	border-image-slice: 1;	
+}
+#section3{/*sekcija informacije*/
+	width: 100%;
+	height: 700px;
+	background-image: url("photos/pozadina.jpg");
+	background-size: cover;
+	border-bottom: 3px solid transparent;
+	border-image: linear-gradient(to right,#d4d43e 25%, #bec6db 60%);
+	border-image-slice: 1;	
+}
+
+h3 {
+   position: absolute;
+   margin-top: 80px;
+   margin-left: 880px;
+   font-size: 60px;
+   line-height: 60px;
+   font-family: 'Francois One', sans-serif;
+   color: #d4d43e;
+   transition: opacity .5s ease-in;
+   text-shadow: 2px 2px #000;
+
+}
+h3 + h3 {  
+   opacity: 0;
+}
+
+
+#section3 p{
+position: absolute;
+ display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   	cursor: pointer;
+   	font-family: 'Trebuchet MS';
+   	font-weight: bold;
+
+}
+
+.avatar{
+	position: absolute;
+	border-radius: 160px;
+	margin-top: 90px;
+	margin-left: 40px;
+
+}
+.avatar:hover{
+	position: absolute;
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.avatar:not(:hover){
+	position: absolute;
+transform: scale(1);
+	transition: .9s;
+}
+#section3 iframe{
+	
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 800px;
+}
+.txt1{
+	position: absolute;
+	margin-left: 290px;
+	margin-top: 90px;
+	font-size: 22px;
+	font-family: 'Trebuchet MS';
+}
+.txt2{
+	position: absolute;
+	margin-left: 340px;
+	margin-top: 170px;
+	font-size: 22px;
+}
+.txt2a{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 210px;
+	font-size: 22px;
+}
+.txt3{
+	position: absolute;
+	margin-left: 330px;
+	margin-top: 275px;
+	font-size: 22px;
+}
+.txt4{
+	position: absolute;
+	margin-left: 260px;
+	margin-top: 395px;
+	font-size: 22px;
+}
+.txt5{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 50px;
+	font-size: 50px;
+}
+.txt6{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 340px;
+	font-size: 22px;
+}
+.skroluj{
+	position: absolute;
+	margin-top: 750px;
+}
+.sertifikatimg{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 940px;
+}
+.sertifikatimg:hover {
+   transform: scale(1.05);
+    transition: linear 1.2s;
+}
+
+.sertifikatimg:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+#video2{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video3{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video4{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video5{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video6{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video7{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video8{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video9{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#video10{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+
+
+
+/*------------------------------kontakt sekcija----------------------------*/
+
+.kontakt{ /*OVO JE SEKCIJA U KOJOJ SE NALAZI MAPA*/ /*!!!!!!!!!!**/
+	 background-image: url("photos/pozadina.jpg");
+  	 background-size: cover;
+}
+.telefon{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	background-color: #d4d43e;
+	border-radius: 70px;
+	margin-top: 140px;
+	margin-left: 58px;
+}
+.telefon:hover {
+   transform: scale(1.15);
+    transition: linear 1.2s;
+}
+
+.telefon:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+.lokacija{
+	height: 100px;
+	width: 100px;
+position: absolute;
+	background-color: #d4d43e;
+	border-radius: 70px;
+	margin-top: 140px;
+	margin-left: 275px;
+}
+.lokacija:hover {
+   transform: scale(1.15);
+    transition: linear 1.2s;
+}
+
+.lokacija:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+.parking{
+	height: 100px;
+	width: 100px;
+position: absolute;
+	background-color: #d4d43e;
+	border-radius: 70px;
+	margin-top: 140px;
+	margin-left: 492px;
+}
+.parking:hover {
+   transform: scale(1.15);
+    transition: linear 1.2s;
+}
+
+.parking:not(:hover){
+transform: scale(1);
+	transition: .9s;
+}
+.brfona{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 280px;
+	font-size: 23px;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+.trznicentar{
+	position: absolute;
+		margin-left: 255px;
+	margin-top: 280px;
+	font-size: 23px;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+.tqcity{
+	position: absolute;
+		margin-left: 280px;
+	margin-top: 310px;
+	font-size: 23px;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+.prvisprat{
+	position: absolute;
+		margin-left: 278px;
+	margin-top: 340px;
+	font-size: 20px;
+	font-family: 'Trebuchet MS';
+	
+}
+.besplatanparking{
+		position: absolute;
+		margin-left: 445px;
+	margin-top: 280px;
+	font-size: 23px;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+/* -------------------------------------prazna sekcija--------------------------------- */
+#praznasekcija{   /*sekcija za futer */
+	width: 100%;
+	height: 150px;
+	background-image: url("photos/pozadina.jpg");
+  	 background-size: cover;
+	border-top: 3px solid transparent;
+	border-image: linear-gradient(to right,#d4d43e 25%, #bec6db 60%);
+	border-image-slice: 1;	
+}
+    #map {  /*OVO JE PODSEKCIJA KOJA JE BUKVALNO MAPA!*/
+        margin-left: 50%;
+        height: 450px;  /* The height is 450 pixels */
+        width: 50%;  /* The width is the width of the web page */
+      /*   border-bottom: 3px solid transparent;
+      -webkit-border-image: -webkit-linear-gradient(left, #d4d43e 25%, #bec6db 60%);
+      -o-border-image: -o-linear-gradient(left, #d4d43e 25%, #bec6db 60%);
+      border-image: linear-gradient(to right, #d4d43e 25%, #bec6db 60%);
+      border-image-slice: 1; */ 
+             } 
+
+/*-----------------------------------------futer sekcija-------------------------------*/
+
+#section4{   /*sekcija za futer */
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	background-size: cover;
+	border-top: 3px solid transparent;
+	border-image: linear-gradient(to right,#d4d43e 25%, #bec6db 60%);
+	border-image-slice: 1;	
+}
+.logofuter{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 15px;
+	width: 70px;
+	height: 70px;
+}
+.instagramfuter{
+	position: absolute;
+	margin-left: 623px;
+	margin-top: 30px;
+}
+.youtubefuter{
+	position: absolute;
+	margin-left: 693px;
+	margin-top: 30px;
+}
+.futertxt{
+	position: absolute;
+	font-family: 'Trebuchet MS';
+	font-size: 14px;
+	margin-top: 40px;
+	margin-left: 1100px;
+	color: white;
+}
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+/*-----------------------------------------RESPONSIV-------------------------------*/
+@media only screen and (min-device-width : 1000px) and (max-device-width : 1310px) {
+		#logodiv{
+			width: 1300px;
+		}
+		#section1{
+			width: 1300px;
+		}
+		ul{
+			width: 1300px;
+		}
+		.jednogdana{
+			margin-top: 100px;
+			margin-right: -260px;
+			margin-left: 380px;
+		}
+		#sanajboljima{
+			position: absolute;
+			margin-top: 50px;
+			margin-left: 800px;
+			margin-right: -300px;
+
+		}
+		#section2{
+			width: 1300px;
+		}
+		.gallery{
+			margin-left: 25px;
+		}
+		#section5{
+			width: 1300px;
+		}
+		#section3{
+			width: 1300px;
+		}
+		.kontakt{
+			width: 1300px;
+		}
+		#section4{
+			width: 1300px;
+		}
+		#praznasekcija{
+			width: 1300px;
+		}
+		.futertxt{
+			font-size: 24px;
+			margin-top: 40px;
+			margin-left: 900px;
+			margin-right: -200px;
+		}
+		.teskoje{
+			margin-top: 100px;
+			margin-right: -200px;
+			margin-left: 500px;
+		}
+		.sanajboljima{
+			margin-top: 30px;
+			margin-left: 900px;
+		}
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 999px) {
+		#logodiv{
+			width: 1300px;
+		}
+		#section1{
+			width: 1300px;
+		}
+		ul{
+			width: 1300px;
+		}
+		.jednogdana{
+			margin-top: 100px;
+			margin-right: -260px;
+			margin-left: 380px;
+		}
+		#sanajboljima{
+			position: absolute;
+			margin-top: 50px;
+			margin-left: 800px;
+			margin-right: -300px;
+
+		}
+		#teskoje{
+			margin-top: 90px;
+			margin-left: 500px;
+			margin-right: -400px;
+		}
+		#section2{
+			width: 1300px;
+		}
+		.gallery{
+			margin-left: 25px;
+		}
+		#section5{
+			width: 1300px;
+		}
+		#section3{
+			width: 1300px;
+		}
+		.kontakt{
+			width: 1300px;
+		}
+		#section4{
+			width: 1300px;
+		}
+		#praznasekcija{
+			width: 1300px;
+		}
+		.futertxt{
+			font-size: 24px;
+			margin-top: 40px;
+			margin-left: 900px;
+			margin-right: -200px;
+		}
+		.teskoje{
+			margin-top: 100px;
+			margin-right: -200px;
+			margin-left: 500px;
+		}
+		.sanajboljima{
+			margin-top: 30px;
+			margin-left: 900px;
+		}
+	}
+@media only screen and (max-device-width: 768px) {
+ 		 ul li {
+	      overflow:hidden;
+	      height: 0;
+	      }
+ 	     ul li.open {
+	      height: auto;
+	      }
+		.meny{
+    	  margin-left: 1100px;
+	      display: block;
+	      cursor: pointer;
+	      z-index: 1;
+	      }
+		 .burgerSection{
+		 	height: 170px;
+		 	width: 1300px;
+		 	background-color: #949498;
+		 	position: -webkit-sticky; /* Safari */
+    		position: sticky;
+    		top: 0px;
+    		z-index: 1;
+		 }
+
+
+
+	#logodiv{
+		width: 1300px;
+		height: 350px;
+		background-image: url("photos/divsectiontelefon.png");
+		background-size: cover;
+
+	}
+	.logoslika{
+		width: 365px;
+		height: 370px;
+		margin-top: 0px;
+	}
+	#section1{
+		width: 1300px;
+		height: 1000px;
+		background-image: url("photos/section1telefon.png");
+		background-size: cover;
+	}
+	.lasss{
+		width: 290px;
+		height: 190px;
+		margin-left: 400px;
+		margin-top: 70px;
+	}
+	.fitnessstudiotxt{
+		width: 300px;
+		height: 50px;
+		margin-top: 220px;
+		margin-left: 380px;
+	}
+	.instagram{
+		width: 180px;
+		height: 180px;
+		margin-left: 840px;
+		border-radius: 500px;
+		margin-top: 80px;
+	}
+	.youtube{
+		width: 180px;
+		height: 180px;
+		border-radius: 500px;
+		margin-left: 1050px;
+		margin-top: 80px;
+	}
+	ul {
+	width: 1300px;
+	top:170px;
+    } 
+
+    li {
+    }
+    li a {
+    padding: 50px 450px;
+   	font-size: 70px;
+    }
+    h3 {
+  		margin-top: 60px;
+   		margin-left: 80px;
+   		font-size:180px;
+  	    line-height: 160px;
+        text-shadow: 4px 4px #000;
+    }
+    .jednogdana{
+    	font-size:130px;
+    }
+    .teskoje{
+    		font-size:130px;
+    }
+	.sanajboljima{
+		font-size: 150px;
+	}
+
+
+/*GALERIJA*/
+	#section2{
+		width: 1300px;
+		height: 2400px;
+	}
+	.gallery{
+		
+	}
+	.pic2{ /*prva slika prvi red*/
+		margin-left: -30px;
+		margin-top: 105px;
+	}
+	#slika2{
+		width: 400px;
+		height: 300px;
+	}
+	.pic1{ /*druga slika prvi red*/
+	    margin-left: 380px;
+	    margin-top: 105px;
+	}
+	#slika1{	
+		width: 400px;
+		height: 600px;
+	}
+	.pic3{ /*treca slika prvi red*/
+		margin-left: 800px;
+		margin-top: 105px;
+	}
+	#slika3{
+		width: 400px;
+		height: 300px;
+	}
+	.pic4{ /*prva slika drugi red*/
+		margin-left: -30px;
+		margin-top: 435px;
+	}
+	#slika4{	
+		width: 400px;
+		height: 600px;
+	}
+	.pic5{ /*druga slika drugi red*/
+	    margin-left: 380px;
+	    margin-top: 732px;
+	}
+	#slika5{
+		width: 400px;
+		height: 300px;
+	}
+	.pic9{	
+		 margin-left: 380px;
+	    margin-top: 1685px;
+	}
+	#slika9{
+		width: 400px;
+		height: 600px;
+	}
+	.pic6{ /*prva slika teci red*/
+		margin-left: -30px;
+		margin-top: 1060px;
+	}
+	#slika6{
+		width: 400px;
+		height: 300px;
+	}
+	.pic7{ 
+		margin-left: 800px;
+		margin-top: 1700px;
+	}
+	#slika7{
+		width: 400px;
+		height: 300px;
+	}
+	.pic8{
+		margin-left: -30px;
+		margin-top: 1700px;
+	}
+	#slika8{
+		width: 400px;
+		height: 300px;
+	}
+	.pic10{/*treca slika treci red*/
+		margin-left: 800px;
+		margin-top: 1060px;
+	}
+	#slika10{
+		width: 400px;
+		height: 300px;
+	}
+	.pic15{
+	    margin-left: 380px;
+	    margin-top: 1060px;
+
+	}
+	#slika15{
+		width: 400px;
+		height: 600px;
+	}
+	.pic12{ /*treca slika drugi red*/
+		margin-left: 800px;
+		margin-top: 435px;
+	}
+	#slika12{
+		width: 400px;
+		height: 600px;
+	}
+.pic13{ 
+	margin-left: -30px;
+	margin-top: 2020px;
+}
+#slika13{
+	width: 400px;
+	height: 300px;
+}
+	.pic14{
+		margin-left: -30px;
+		margin-top: 1380px;
+
+	}
+	#slika14{
+		width: 400px;
+		height: 300px;
+	}
+
+.pic11{
+	margin-left: 800px;
+	margin-top: 1380px;
+
+}
+#slika11{
+		width: 400px;
+		height: 300px;
+}
+.pic16{
+	position: absolute;
+	visibility: visible;
+	margin-left: 800px;
+	margin-top: 2020px;
+	
+}
+#slika16{
+	width: 400px;
+	height: 300px;
+}
+.pic17{
+	visibility: hidden;
+}
+#section5{
+	width: 1300px;
+	height: 2800px;
+}
+#video2{
+	width: 600px;
+	height: 500px;
+}
+#video3{
+	width: 600px;
+	height: 500px;
+	margin-left: 18px;
+}
+#video4{
+	width: 600px;
+	height: 500px;
+}
+#video5{
+	width: 600px;
+	height: 500px;
+	margin-left: 18px;
+}
+#video6{
+	width: 600px;
+	height: 500px;
+}
+#video7{
+	width: 600px;
+	height: 500px;
+	margin-left: 18px;
+}
+#video8{
+	width: 600px;
+	height: 500px;
+}
+#video9{
+	width: 600px;
+	height: 500px;
+	margin-left: 18px;
+}
+#video10{
+	width: 600px;
+	height: 500px;
+}
+#section3{
+	width: 1300px;
+	height: 1400px;
+}
+.avatar{
+	width: 600px;
+	border-radius: 500px;
+}
+.txt1{
+	margin-top: 35px;
+	margin-left: 500px;
+	margin-right: -300px;
+	font-size: 40px;
+}
+.txt2{
+	margin-top: 160px;
+	margin-left: 620px;
+	margin-right: -300px;
+	font-size: 40px;
+}
+.txt2a{
+	margin-top: 260px;
+	margin-left: 620px;
+	margin-right: -300px;
+	font-size: 40px;
+}
+.txt3{
+	margin-top: 400px;
+	margin-left: 650px;
+	margin-right: -300px;
+	font-size: 40px;
+}
+.txt4{
+	margin-top: 660px;
+	margin-left: 500px;
+	margin-right: -300px;
+	font-size: 40px;
+}
+.txt6{
+	margin-top: 535px;
+	margin-left: 590px;
+	margin-right: -300px;
+	font-size: 40px;
+}
+.txt5{
+	margin-top: 750px;
+	margin-left: 20px;
+	font-size: 70px;
+}
+.sertifikatimg{
+	margin-top: 780px;
+	margin-left: 800px;
+	width: 500px;
+	height: 600px;
+}
+.video1{
+	margin-top: 500px;
+	margin-left: -700px;
+}
+#video1{
+	width: 550px;
+	height: 450px;
+}
+#praznasekcija{
+	visibility: hidden;
+	height: 0;
+}
+.kontakt{
+	width: 1300px;
+	height: 1000px;
+}
+#section4{
+	width: 1300px;
+	height: 180px;
+}
+
+    #map {  /*OVO JE PODSEKCIJA KOJA JE BUKVALNO MAPA!*/
+        left: -650px;
+        top: 600px;
+        height: 800px;  /* The height is 450 pixels */
+        width: 100%;  /* The width is the width of the web page */
+             } 
+
+.kontakt{ /*OVO JE SEKCIJA U KOJOJ SE NALAZI MAPA*/ /*!!!!!!!!!!**/
+	height: 1500px;
+}
+.telefon{
+	height: 300px;
+	width: 300px;
+	border-radius: 200px;
+	margin-top: 30px;
+	margin-left: 110px;
+}
+.lokacija{
+	height: 300px;
+	width: 300px;
+	border-radius: 200px;
+	margin-top: 30px;
+	margin-left: 510px;
+}
+.parking{
+	height: 300px;
+	width: 300px;
+	border-radius: 200px;
+	margin-top: 30px;
+	margin-left: 910px;
+}
+.brfona{
+	margin-left: 95px;
+	margin-top: 390px;
+	font-size: 50px;
+}
+.trznicentar{
+	margin-left: 510px;
+	margin-top: 360px;
+	font-size: 50px;
+
+}
+.tqcity{
+	margin-left: 560px;
+	margin-top: 425px;
+	font-size: 50px;
+
+}
+.prvisprat{
+	margin-left: 545px;
+	margin-top: 485px;
+	font-size: 50px;	
+}
+.besplatanparking{
+	margin-left: 940px;
+	margin-top: 360px;
+	font-size: 50px;
+}
+.logofuter{
+	margin-left: 30px;
+	margin-top: 3px;
+	width: 180px;
+	height: 180px;
+}
+.instagramfuter{
+	margin-left: 450px;
+	margin-top: 33px;
+	width: 110px;
+	height: 110px;
+}
+.youtubefuter{
+	margin-left: 600px;
+	margin-top: 33px;
+	width: 110px;
+	height: 110px;
+}
+.futertxt{
+	font-size: 40px;
+	margin-top: 60px;
+	margin-left: 780px;
+	margin-right: -500px;
+}
+}
